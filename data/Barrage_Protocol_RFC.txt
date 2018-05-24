@@ -1,0 +1,22 @@
+This document lists the different commands and responses of the Barrage Protocol
+================================================================================
+Command : JOIN REQ
+Response:OK 100
+Command :DETAILS[tab]<Username>[tab]<X coordinate>[tab]<Y coordinate>
+Response:DETAILS[tab]<Username>[tab]<X coordinate>[tab]<Y coordinate> - verified by server/host
+Response:ERR_USR_EXISTS 250
+Command :HOST
+Response:none
+Command :ADD_BULT[tab]<x>[tab]<y>[tab]<width>[tab]<height>[tab]<weight>[tab]<direction>[tab]<id>[tab]<sender - person that fired bullet>
+Response:none
+Command :QUIT[tab]<username>
+Response:none
+Command :REM_BULT[tab]<bullet id>
+Response:none
+Command :STAT[tab]<Status - READY or !READY>
+Response:OK 300
+Command :MOVE[tab]<Username>[tab]<x>[tab]<y>
+Response:OK 400
+Command :UPDT_SCR[tab]<username>[tab]<score>
+Command :START - starts session
+Command :UPDT_HP[tab]<username>[tab]<hitpoints>

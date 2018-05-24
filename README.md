@@ -6,3 +6,5 @@ Level Editor for my 2D sidescroller platformer, this was initially for my 2nd ye
   <li>Use WSAD to move the actor when simulating</li>
   <li>Click on blocks to select them in order to change their properties, i.e. weight, rigid body, etc.</li>
 </ul>
+
+<a href="https://image.ibb.co/fN0188/level_editor700x438_30fps.gif">Check out the gameplay video</a>
